@@ -32,10 +32,13 @@ docker-compose up -d
 
 ```bash
 # Elasticsearch 확인
-curl http://localhost:9200
-
-# 생성된 인덱스 확인
 curl 'http://localhost:9200/_cat/indices?v'
+
+# LogStash 확인
+docker logs logstash
+
+# Kafka 확인
+docker logs kafka
 ```
 
 # 4. 접속 주소
