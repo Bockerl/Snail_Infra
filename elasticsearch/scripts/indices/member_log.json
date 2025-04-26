@@ -1,0 +1,21 @@
+{
+    "mappings": {
+      "properties": {
+        "memberId": { "type": "keyword" },
+        "timestamp": { "type": "date" },
+        "ipAddress": { "type": "ip" },
+        "userAgent": { "type": "text" },
+        "memberEmail": { "type": "keyword" },
+        "memberPhoneNumber": { "type": "keyword" },
+        "memberNickname": { "type": "text" },
+        "memberPhoto": { "type": "keyword" },
+        "memberStatus": { "type": "keyword" },
+        "memberLanguage": { "type": "keyword" },
+        "memberGender": { "type": "keyword" },
+        "memberRegion": { "type": "keyword" },
+        "memberBirth": { "type": "date" },
+        "signUpPath": { "type": "keyword" },
+        "log_type": { "type": "keyword" }
+      }
+    }
+  }
