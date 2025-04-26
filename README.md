@@ -8,17 +8,16 @@
 
 ## 설치 및 실행 방법
 
-1. 저장소 클론
+# 1. 저장소 클론
 
 ```bash
 git clone clone https://github.com/Bockerl/Snail_Infra.git
 # git pull한 루트 디렉토리로 이동(docker-compose.yml이 존재하는)
-cd root direc
+cd ../Snail_Infra
 ```
 
-2. 실행
+# 2. 실행
 
-# Linux/Mac/Windows
 
 ```bash
 
