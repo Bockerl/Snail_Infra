@@ -73,6 +73,7 @@ services:
         condition: service_started
     volumes:
       - ./logstash/pipeline/member-log.conf:/usr/share/logstash/pipeline/member-log.conf
+      - ./logstash/pipeline/auth-fail-log.conf:/usr/share/logstash/pipeline/auth-fail-log.conf
     ports:
       - "5044:5044"
     networks:
