@@ -1,14 +1,14 @@
 {
-    "mapping": {
-        "properties": {
-            "email": { "type": "keyword" },
-            "timestamp": { "type": "date" },
-            "path": { "type": "keyword" },
-            "ipAddress": { "type": "ip" },
-            "userAgent": { "type": "text" },
-            "fail_type": { "type": "keyword" },
-            "message": { "type": "text" },
-            "cause": { "type": "keyword" }
-        }
+  "mappings": {
+    "properties": {
+      "email": { "type": "keyword" },
+      "timestamp": { "type": "date" },
+      "path": { "type": "keyword" },
+      "ipAddress": { "type": "ip" },
+      "userAgent": { "type": "text" },
+      "failType": { "type": "keyword" },
+      "message": { "type": "text" },
+      "cause": { "type": "keyword" }
     }
+  }
 }
