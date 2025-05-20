@@ -199,5 +199,5 @@
   ],
   "schemaVersion": 37,
   "version": 1,
-  "refresh": "10s"
+  "refresh": "5s"
 }
